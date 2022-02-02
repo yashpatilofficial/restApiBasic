@@ -1,4 +1,5 @@
 import express from 'express';
+import { APP_PORT } from './config'
 import { listen } from 'express/lib/application';
 
 const app = express();
