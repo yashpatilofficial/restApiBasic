@@ -3,4 +3,4 @@ import { listen } from 'express/lib/application';
 
 const app = express();
 
-app.listen()
+app.listen(APP_PORT, ()=> console.log('Listening to port ${APP_PORT}.'))
