@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'express';//defines
 import { APP_PORT } from './config'
 import { listen } from 'express/lib/application';
 
